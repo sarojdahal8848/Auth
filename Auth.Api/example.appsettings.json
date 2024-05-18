@@ -1,0 +1,25 @@
+{
+    "Logging": {
+      "LogLevel": {
+        "Default": "Information",
+        "Microsoft.AspNetCore": "Warning"
+      }
+    },
+    "AllowedHosts": "*",
+    "ConnectionStrings": {
+      "DefaultConnection": "Data Source=Database.db"
+    },
+    "EmailSettings": {
+      "MailServer": "smtp.gmail.com",
+      "MailPort": 587,
+      "MailSenderName": "Auth Pvt. Ltd",
+      "MailFrom": "",
+      "MailSenderPassword": ""
+    },
+    "Jwt": {
+      "Key": "",
+      "Issuer": "https://localhost:7205",
+      "Audience": "https://localhost:7205",
+      "ExpiryTime": "1m"
+    }
+  }
